@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicCollection.Api", "ComicCollection.Api\ComicCollection.Api.csproj", "{A3B0A26D-78CF-4CC8-9D4C-FA7DE658B8AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicVineApiRequester.Services", "ComicVineApiRequester.Services\ComicVineApiRequester.Services.csproj", "{ADDB1F8A-AE1E-4226-986C-EFB2AEFCB7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue.Services", "Queue.Services\Queue.Services.csproj", "{E983F7B5-E7FC-411C-BF23-6011DCEFD515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicCollectionModels", "ComicCollectionModels\ComicCollectionModels.csproj", "{8595A502-619D-4E62-8D5F-444AA55176A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{A3B0A26D-78CF-4CC8-9D4C-FA7DE658B8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B0A26D-78CF-4CC8-9D4C-FA7DE658B8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B0A26D-78CF-4CC8-9D4C-FA7DE658B8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDB1F8A-AE1E-4226-986C-EFB2AEFCB7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDB1F8A-AE1E-4226-986C-EFB2AEFCB7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDB1F8A-AE1E-4226-986C-EFB2AEFCB7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDB1F8A-AE1E-4226-986C-EFB2AEFCB7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E983F7B5-E7FC-411C-BF23-6011DCEFD515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E983F7B5-E7FC-411C-BF23-6011DCEFD515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E983F7B5-E7FC-411C-BF23-6011DCEFD515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E983F7B5-E7FC-411C-BF23-6011DCEFD515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8595A502-619D-4E62-8D5F-444AA55176A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8595A502-619D-4E62-8D5F-444AA55176A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8595A502-619D-4E62-8D5F-444AA55176A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8595A502-619D-4E62-8D5F-444AA55176A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
